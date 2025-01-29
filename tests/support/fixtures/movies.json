@@ -1,0 +1,82 @@
+{
+    "create": {
+      "title": "Apocalipse dos Mortos",
+      "overview": "Em uma pequena cidade do interior, um vírus misterioso transforma os habitantes em zumbis sedentos por carne humana. Um grupo de sobreviventes precisa encontrar uma rota de fuga enquanto descobrem a origem da infecção.",
+      "featured": false,
+      "release_year": 2019,
+      "company": "Netflix",
+      "cover": "/assets/images/apocalipse_mortos.png"
+    },
+    "zombie_movie_2": {
+      "title": "Última Esperança",
+      "overview": "Um cientista desenvolve uma possível cura para uma pandemia zumbi global, mas precisa atravessar um continente infestado de mortos-vivos para chegar ao último laboratório operacional.",
+      "featured": true,
+      "release_year": 2021,
+      "company": "Global Pictures",
+      "cover": "/assets/images/ultima_esperanca.png"
+    },
+    "zombie_movie_3": {
+      "title": "28 Horas Depois",
+      "overview": "Uma experiência militar secreta libera um vírus que transforma pessoas em zumbis ultra-rápidos. Uma família tenta sobreviver nas primeiras 28 horas do surto.",
+      "featured": false,
+      "release_year": 2022,
+      "company": "Midnight Productions",
+      "cover": "/assets/images/28_horas.png"
+    },
+    "zombie_movie_4": {
+      "title": "Necropolis",
+      "overview": "Na cidade abandonada de Necropolis, um grupo de saqueadores encontra mais do que esperava quando descobre que os zumbis estão evoluindo e desenvolvendo inteligência.",
+      "featured": false,
+      "release_year": 2020,
+      "company": "Horror Entertainment",
+      "cover": "/assets/images/necropolis.png"
+    },
+    "zombie_movie_5": {
+      "title": "O Amanhecer dos Mortos",
+      "overview": "Sobreviventes se refugiam em um shopping center durante um apocalipse zumbi, mas as tensões entre o grupo podem ser mais perigosas que os mortos-vivos.",
+      "featured": true,
+      "release_year": 2018,
+      "company": "Survivor Films",
+      "cover": "/assets/images/amanhecer_mortos.png"
+    },
+    "zombie_movie_6": {
+      "title": "Zona Infectada",
+      "overview": "Uma equipe militar especializada é enviada para resgatar sobreviventes em uma zona de quarentena infestada de zumbis, mas descobre uma conspiração governamental.",
+      "featured": false,
+      "release_year": 2023,
+      "company": "Action Studios",
+      "cover": "/assets/images/zona_infectada.png"
+    },
+    "zombie_movie_7": {
+      "title": "Mortos ao Amanhecer",
+      "overview": "Durante uma viagem de camping, um grupo de amigos descobre que um meteoro trouxe uma infecção alienígena que transforma suas vítimas em zumbis.",
+      "featured": false,
+      "release_year": 2021,
+      "company": "Stellar Pictures",
+      "cover": "/assets/images/mortos_amanhecer.png"
+    },
+    "zombie_movie_8": {
+      "title": "Laboratório Z",
+      "overview": "Uma cientista novata descobre que seu novo emprego em um laboratório secreto está criando zumbis controlados mentalmente para fins militares.",
+      "featured": false,
+      "release_year": 2020,
+      "company": "Tech Horror Productions",
+      "cover": "/assets/images/laboratorio_z.png"
+    },
+    "zombie_movie_9": {
+      "title": "A Cura Mortal",
+      "overview": "Quando uma suposta cura para o vírus zumbi é descoberta, os efeitos colaterais provam ser mais devastadores que a própria doença.",
+      "featured": true,
+      "release_year": 2022,
+      "company": "Pandemic Films",
+      "cover": "/assets/images/cura_mortal.png"
+    },
+    "zombie_movie_10": {
+      "title": "Zumbis na Neve",
+      "overview": "Em uma estação de pesquisa no Ártico, cientistas descobrem zumbis preservados no gelo que, ao descongelarem, iniciam uma infecção em um ambiente isolado.",
+      "featured": false,
+      "release_year": 2019,
+      "company": "Frozen Horror Studios",
+      "cover": "/assets/images/zumbis_neve.png"
+    }
+  }
