@@ -3,15 +3,22 @@ export class Login {
     constructor(page) {
         this.page = page
     }
+
+    async do(email, password, userName){
+        await this.visit()
+        await this.submit(email, password)
+        await this.isLoggedIn(userName)
+    }
+
     async visit() {
         await this.page.goto('http://localhost:3000/admin/login')
         const loginForm = this.page.locator('.login-form')
         await expect(loginForm).toBeVisible()
     }
 
-    async submit(email, passworld) {
+    async submit(email, password) {
         await this.page.getByPlaceholder('E-mail').fill(email)
-        await this.page.getByPlaceholder('Senha').fill(passworld)
+        await this.page.getByPlaceholder('Senha').fill(password)
         await this.page.getByText('Entrar').click()
     }
     
@@ -21,9 +28,9 @@ export class Login {
         await expect(alert).toHaveText(text)
     }
 
-    async isLoggedIn() {
-        await this.page.waitForLoadState('networkidle')
-        await expect(this.page).toHaveURL(/.*admin/)
+    async isLoggedIn(userName) {
+        await expect(this.page.locator('.logged-user'))
+        .toHaveText(`Olá, ${userName}`)
     }
    
 }
