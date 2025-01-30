@@ -7,18 +7,13 @@ test('deve poder cadastrar um novo filme', async ({ page }) => {
     const movie = data.create
     executeSQL(`DELETE FROM public.movies WHERE title='${movie.title}'`)
 
-    await page.login.visit()
-    await page.login.submit('admin@zombieplus.com', 'pwd123')
-    await page.login.isLoggedIn()
-
+    await page.login.do('admin@zombieplus.com', 'pwd123', 'Admin')
     await page.movies.create(movie.title, movie.overview, movie.company, movie.release_year)
     await page.toast.containText('UhullCadastro realizado com sucesso!')
 })
 
 test('não deve cadastrar quando os campos obrigratórios não são preenchidos', async ({ page }) => {
-    await page.login.visit()
-    await page.login.submit('admin@zombieplus.com', 'pwd123')
-    await page.login.isLoggedIn()
+    await page.login.do('admin@zombieplus.com', 'pwd123', 'Admin')
     await page.movies.goForm()
     await page.movies.submit()
     await page.movies.alertHaveText([
