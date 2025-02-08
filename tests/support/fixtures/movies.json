@@ -1,82 +1,82 @@
 {
-    "create": {
-      "title": "Apocalipse dos Mortos",
-      "overview": "Em uma pequena cidade do interior, um vírus misterioso transforma os habitantes em zumbis sedentos por carne humana. Um grupo de sobreviventes precisa encontrar uma rota de fuga enquanto descobrem a origem da infecção.",
-      "featured": false,
-      "release_year": 2019,
-      "company": "Netflix",
-      "cover": "/assets/images/apocalipse_mortos.png"
-    },
-    "zombie_movie_2": {
-      "title": "Última Esperança",
-      "overview": "Um cientista desenvolve uma possível cura para uma pandemia zumbi global, mas precisa atravessar um continente infestado de mortos-vivos para chegar ao último laboratório operacional.",
-      "featured": true,
-      "release_year": 2021,
-      "company": "Global Pictures",
-      "cover": "/assets/images/ultima_esperanca.png"
-    },
-    "zombie_movie_3": {
-      "title": "28 Horas Depois",
-      "overview": "Uma experiência militar secreta libera um vírus que transforma pessoas em zumbis ultra-rápidos. Uma família tenta sobreviver nas primeiras 28 horas do surto.",
-      "featured": false,
-      "release_year": 2022,
-      "company": "Midnight Productions",
-      "cover": "/assets/images/28_horas.png"
-    },
-    "zombie_movie_4": {
-      "title": "Necropolis",
-      "overview": "Na cidade abandonada de Necropolis, um grupo de saqueadores encontra mais do que esperava quando descobre que os zumbis estão evoluindo e desenvolvendo inteligência.",
-      "featured": false,
-      "release_year": 2020,
-      "company": "Horror Entertainment",
-      "cover": "/assets/images/necropolis.png"
-    },
-    "zombie_movie_5": {
-      "title": "O Amanhecer dos Mortos",
-      "overview": "Sobreviventes se refugiam em um shopping center durante um apocalipse zumbi, mas as tensões entre o grupo podem ser mais perigosas que os mortos-vivos.",
-      "featured": true,
-      "release_year": 2018,
-      "company": "Survivor Films",
-      "cover": "/assets/images/amanhecer_mortos.png"
-    },
-    "zombie_movie_6": {
-      "title": "Zona Infectada",
-      "overview": "Uma equipe militar especializada é enviada para resgatar sobreviventes em uma zona de quarentena infestada de zumbis, mas descobre uma conspiração governamental.",
-      "featured": false,
-      "release_year": 2023,
-      "company": "Action Studios",
-      "cover": "/assets/images/zona_infectada.png"
-    },
-    "zombie_movie_7": {
-      "title": "Mortos ao Amanhecer",
-      "overview": "Durante uma viagem de camping, um grupo de amigos descobre que um meteoro trouxe uma infecção alienígena que transforma suas vítimas em zumbis.",
-      "featured": false,
-      "release_year": 2021,
-      "company": "Stellar Pictures",
-      "cover": "/assets/images/mortos_amanhecer.png"
-    },
-    "zombie_movie_8": {
-      "title": "Laboratório Z",
-      "overview": "Uma cientista novata descobre que seu novo emprego em um laboratório secreto está criando zumbis controlados mentalmente para fins militares.",
-      "featured": false,
-      "release_year": 2020,
-      "company": "Tech Horror Productions",
-      "cover": "/assets/images/laboratorio_z.png"
-    },
-    "zombie_movie_9": {
-      "title": "A Cura Mortal",
-      "overview": "Quando uma suposta cura para o vírus zumbi é descoberta, os efeitos colaterais provam ser mais devastadores que a própria doença.",
-      "featured": true,
-      "release_year": 2022,
-      "company": "Pandemic Films",
-      "cover": "/assets/images/cura_mortal.png"
-    },
-    "zombie_movie_10": {
-      "title": "Zumbis na Neve",
-      "overview": "Em uma estação de pesquisa no Ártico, cientistas descobrem zumbis preservados no gelo que, ao descongelarem, iniciam uma infecção em um ambiente isolado.",
-      "featured": false,
-      "release_year": 2019,
-      "company": "Frozen Horror Studios",
-      "cover": "/assets/images/zumbis_neve.png"
-    }
+  "create": {
+    "title": "Night of the Living Dead",
+    "overview": "A group of people trapped in a farmhouse must survive the night as the dead rise and feast on the living.",
+    "featured": true,
+    "release_year": 1970,
+    "company": "Paramount Pictures",
+    "cover": "/covers/movies/mortos-vivos.jpg"
+  },
+  "duplicate":{
+    "title": "Dawn of the Dead",
+    "overview": "Survivors of a zombie outbreak take refuge in a shopping mall, but soon face external and internal threats.",
+    "featured": true,
+    "release_year": 1978,
+    "company": "Columbia Pictures",
+    "cover": "/covers/movies/madrugada.jpg"
+  },
+  "movie_3":{
+    "title": "28 Days Later",
+    "overview": "A man wakes up from a coma to find London overrun by a rage-fueled virus, forcing him to fight for survival.",
+    "featured": true,
+    "release_year": 2002,
+    "company": "DNA Films",
+    "cover": "https://example.com/28_days_later.jpg"
+  },
+  "movie_4":{
+    "title": "Shaun of the Dead",
+    "overview": "A slacker and his best friend attempt to survive a zombie apocalypse while trying to win back his ex-girlfriend.",
+    "featured": false,
+    "release_year": 2004,
+    "company": "StudioCanal",
+    "cover": "https://example.com/shaun_of_the_dead.jpg"
+  },
+  "movie_5":{
+    "title": "Train to Busan",
+    "overview": "Passengers on a high-speed train struggle to survive as a zombie outbreak spreads throughout South Korea.",
+    "featured": true,
+    "release_year": 2016,
+    "company": "Next Entertainment World",
+    "cover": "https://example.com/train_to_busan.jpg"
+  },
+  "movie_6":{
+    "title": "Zombieland",
+    "overview": "A group of survivors navigate a zombie-infested America using their own set of survival rules.",
+    "featured": false,
+    "release_year": 2009,
+    "company": "Columbia Pictures",
+    "cover": "https://example.com/zombieland.jpg"
+  },
+  "movie_7":{
+    "title": "World War Z",
+    "overview": "A former UN investigator races against time to stop a global zombie pandemic from consuming humanity.",
+    "featured": true,
+    "release_year": 2013,
+    "company": "Paramount Pictures",
+    "cover": "https://example.com/world_war_z.jpg"
+  },
+  "movie_8":{
+    "title": "REC",
+    "overview": "A reporter and her cameraman find themselves trapped in an apartment building during a terrifying viral outbreak.",
+    "featured": false,
+    "release_year": 2007,
+    "company": "Filmax",
+    "cover": "https://example.com/rec.jpg"
+  },
+  "movie_9":{
+    "title": "The Return of the Living Dead",
+    "overview": "A punk group faces a horde of brain-hungry zombies after a toxic gas is accidentally released in a cemetery.",
+    "featured": false,
+    "release_year": 1985,
+    "company": "Orion Pictures",
+    "cover": "https://example.com/return_of_the_living_dead.jpg"
+  },
+  "movie_10":{
+    "title": "Resident Evil",
+    "overview": "A team of elite soldiers fights to contain a deadly viral outbreak in an underground lab, facing hordes of zombies.",
+    "featured": true,
+    "release_year": 2002,
+    "company": "Screen Gems",
+    "cover": "https://example.com/resident_evil.jpg"
   }
+}
