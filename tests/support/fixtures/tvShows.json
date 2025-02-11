@@ -1,0 +1,56 @@
+{
+    "create": {
+        "title": "The Walking Dead",
+        "overview": "Acompanha um grupo de sobreviventes em um mundo pós-apocalíptico dominado por zumbis, enquanto enfrentam desafios para manter sua humanidade.",
+        "company": "Netflix",
+        "release_year": 2010,
+        "seasons": 11,
+        "featured": true,
+        "cover": "/covers/tvShows/The-Walking-Dead.jpg"
+    },
+    "duplicate": {
+        "title": "Fear the Walking Dead",
+        "overview": "Prequela de 'The Walking Dead' que mostra o início do apocalipse zumbi através dos olhos de uma família disfuncional.",
+        "company": "Amazon Studios",
+        "release_year": 2015,
+        "seasons": 7,
+        "featured": false,
+        "cover": "/covers/tvShows/fear-of-the-walking-dead.jpg"
+    },
+    "remove": {
+        "title": "Santa Clarita Diet",
+        "overview": "Um casal de corretores de imóveis vê suas vidas mudarem drasticamente quando a esposa passa por uma transformação radical que envolve um apetite por carne humana.",
+        "company": "Netflix",
+        "release_year": 2017,
+        "seasons": "3",
+        "featured": false,
+        "cover": "https://www.senscritique.com/serie/santa_clarita_diet/23817619"
+    },
+    "to_search": {
+        "input": "Dead",
+        "outputs": [
+            "Ash vs Evil Dead",
+            "All of Us Are Dead"
+        ],
+        "data": [
+            {
+                "title": "Ash vs Evil Dead",
+                "overview": "Trinta anos após confrontar forças malignas, Ash é forçado a enfrentar seus demônios pessoais e reais quando uma praga ameaça a humanidade.",
+                "company": "Columbia Pictures",
+                "release_year": 2015,
+                "seasons": 3,
+                "featured": false,
+                "cover": "https://www.themoviedb.org/tv/62264-ash-vs-evil-dead/images/posters"
+            },
+            {
+                "title": "All of Us Are Dead",
+                "overview": "Estudantes ficam presos em uma escola durante um surto de zumbis e lutam para sobreviver enquanto procuram uma saída.",
+                "company": "Netflix",
+                "release_year": 2022,
+                "seasons": 1,
+                "featured": false,
+                "cover": "https://www.themoviedb.org/tv/83222-all-of-us-are-dead/images/posters"
+            }
+        ]
+    }
+}
